@@ -1,0 +1,18 @@
+1. Problems encountered during implementation are deciding which way the tree should be
+constructed. According to the requirements and video, each of the symbol’s trees should be
+sorted according to the Lexicographical order. But when I tested some of the test cases that
+were given to us, I found that the latter wasn’t the case. (An issue that I encountered are in shesells-encoded.txt, after rebuilding the tree I found that for instance, the letters ‘s’ and ‘e’ have
+the same frequency, but they are not inserted according to their Lexicographical order)
+2. the tree for the alpha and non-Alpha symbols. The problem was encountered with the right way
+to delete the first 2 nodes, and then replace them with one T node that is used as the “sum” of
+both frequency values.
+3. Incomplete implementation and known bugs are the encoding strings for my characters. When I
+use bigger file inputs, most of the encodings are wrong, with some of them correct. The process
+worked on sea.txt but not on other text files
+4. There were no significant interactions
+5. Citations of references used:
+a. https://www.cplusplus.com/forum/ used it to refresh memory on some pointer
+concepts
+b. https://stackoverflow.com/ used it to refresh memory on how to use
+command-line arguments
+6. https://github.com/laithjas/Project1.git
