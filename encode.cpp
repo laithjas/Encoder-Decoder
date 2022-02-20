@@ -22,6 +22,7 @@ void buildSymbolsTree(struct tree *alpha, int size);
 
 void splitSymbolsArray(struct tree *alpha, struct tree *nonAlpha, struct symbol *symbols);
 
+
 int main(int argc, char **argv) {
     encode(argv[1], argv[2]);
     return 0;

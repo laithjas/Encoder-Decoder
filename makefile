@@ -18,7 +18,5 @@ encode.o: encode.cpp defns.h
 Preprocess.o: Preprocess.cpp defns.h
 	g++ -g -Wall -c Preprocess.cpp
 
-
-
 clean:
 	rm *.o *.~
