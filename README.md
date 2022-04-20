@@ -4,6 +4,8 @@ It encodes-decodes any ASCII text file and turn it into binray code
 
 HOW TO RUN:
 
+First, run "make" command to create all the desired execuatables
+
 1- Use "preprocess" command preprocess the desired text
 
   I- Usage: preprocess <file.txt > pre-file.txt
